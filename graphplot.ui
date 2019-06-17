@@ -518,6 +518,9 @@
        <property name="mouseTracking">
         <bool>false</bool>
        </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;C:\mydir\myfile.ext&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
        <property name="text">
         <string>Filename</string>
        </property>
@@ -535,6 +538,9 @@
          <kerning>true</kerning>
         </font>
        </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;ex: (x^2 + 10)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+       </property>
        <property name="text">
         <string>Function f(x) =</string>
        </property>
@@ -551,6 +557,9 @@
          <underline>false</underline>
          <kerning>true</kerning>
         </font>
+       </property>
+       <property name="toolTip">
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;inferior_limit&lt;/span&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;step&lt;/span&gt;&lt;span style=&quot; font-size:7pt; font-weight:600;&quot;&gt;:&lt;/span&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;superior_limit&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
        <property name="text">
         <string>x interval =</string>
@@ -4041,6 +4050,9 @@
     </property>
     <property name="mouseTracking">
      <bool>false</bool>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:7pt;&quot;&gt;C:\mydir\filename.jpg&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
     <property name="text">
      <string>Local</string>
