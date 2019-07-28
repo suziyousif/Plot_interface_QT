@@ -79,7 +79,7 @@ void graphplot::on_PlotFunButton_clicked()
 {
     if(!((ui->lineEdit_Function->text()).isEmpty()) && !((ui->lineEdit_xInterval->text()).isEmpty())){
         double x=0;
-        te_variable vars[] = {"x", &x};
+        te_variable vars[] = {{"x", &x}};
 
         int err;
         // Compile the expression with variables.
